@@ -62,17 +62,19 @@ Já o Power BI possibilitou transformar essas informações em análises dinâmi
 <br><br>
 
 ## Dashboard Power BI
-<img align="right" width="500"  src="https://github.com/BruceFonseca/AdventureWorks2022/blob/main/imagens/Captura%20de%20tela%202023-12-03%20121514.png?raw=true">
-Seguindo a idéia que SQL não é a melhor ferramenta para uma análise dinâmica e visual de informações, desenvolvi um dashboard focado na análise dos clientes novos e recorrentes da mesma base de dados AdventureWorks.
-Como o Power BI permite análises dinâmicas e visuais de forma simples, escrevendo menos código DAX e permitindo o usuário total interação com a ferramenta, fiz uma análise exploratória na quantidade e receira entre novos e recoreente.<br>
-Com esta análise, chegamos as seguintes conclusões:<br>
- - A maioria dos clientes a partir de 2013 é novo. <br>
- - Além da quantidade de clientes novos, a receita trazida por clientes novos também é a maior fatia do total.<br>
- - Os clientes novos não são a maioria para todos países e períodos. Por isso o Power BI é uma ferramenta de extrema importância, pois permite o usuário final fazer seus filtros e ter análises de forma dinâmica.
+<img align="right" width="500"  src="https://raw.githubusercontent.com/BrendonSantos7/Controle-Financeiro/refs/heads/main/imagens/Dashboard.png">
+Após validar e explorar os dados utilizando SQL, desenvolvi um dashboard interativo no Power BI focado em indicadores financeiros, análise temporal e acompanhamento das movimentações financeiras pessoais.
+O dashboard permite análises dinâmicas e visuais através de filtros, segmentações e KPIs financeiros, proporcionando uma experiência analítica muito mais eficiente.<br>
+Entre os principais indicadores desenvolvidos: <br>
+ - Receita Total e Despesa Total. <br>
+ - Categorias com maiores gastos.br>
+ - Ticket Médio.
+ - Evolução Financeira Mensal.
+ - Formas de pagamento mais utilizadas.
 <br><br>
-<a href="https://app.powerbi.com/view?r=eyJrIjoiNWJjODBmOTAtYmNhMy00YjdmLTk5ZDMtMDc4NGI4NDY3YzJmIiwidCI6IjQxNGU0N2Q2LTVhNGUtNDkzZS05OWJkLTUzMTYwZjJhYWY2ZiJ9" target="_blank">Clique aqui</a> e acesse o a solução desenvolvida para a empresa AdventureWorks.
+<a href="https://app.powerbi.com/view?r=eyJrIjoiNjk3NWI0NTgtNDJkYy00ZTk4LWIwZWQtZDkxMWFjM2JiYjY2IiwidCI6ImFkOGRhY2IwLWU2OTgtNDJkZC04ODY2LWFkYWRkZTQ3MTEwZCJ9" target="_blank">Clique aqui</a> e acesse o projeto desenvolvido para análise financeira.
 <br>
-<a href="https://github.com/BruceFonseca/AdventureWorks2022/tree/main/POWERBI" target="_blank">Clique aqui</a> e acesse o arquivo .pbix no Github.
+<a href="https://github.com/BrendonSantos7/Controle-Financeiro/blob/main/POWERBI/Controle%20Financeiro.pbix" target="_blank">Clique aqui</a> e acesse o arquivo .pbix no Github.
 <br><br>
 
 ## Ferramentas e linguagens utilizadas

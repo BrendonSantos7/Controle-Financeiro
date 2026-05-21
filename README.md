@@ -25,38 +25,39 @@ Entre as principais análises desenvolvidas:<br><br>
 <br><br>
 
 ## Análise de categorias com maiores gastos
-<img align="left" width="500"  src="https://github.com/BruceFonseca/AdventureWorks2022/blob/main/imagens/AdventureWorks%20-%20Novos%20Clientes.png?raw=true">
-Para identificar os novos clientes, primeiro foi necessário agrupar os clientes por ano e mês em uma CTE - Common Table Expression, porém é possível o mesmo resultado utilizando outras técnicas. Na CTE criada com o nome ClientesPrimeiraDataCompra, identificamos qual foi a primeira compra de cada, agrupando novos clientes por ano e mês.
-Com os dados agrupados, utilizamos a função de janela LAG para encontrar novos clientes no mesmo mês do ano anterior, permitindo os seguintes cálculos: <br><br>
-- Novos Clientes  <br>
-- Novos Clientes Ano Anterior<br>
-- Variação de novos clientes entre períodos <br>
+<img align="left" width="500"  src="https://github.com/BrendonSantos7/Controle-Financeiro/blob/main/imagens/Controle%20Financeiro%20-%20Categorias%20e%20Gastos.png?raw=true">
+Após entender a evolução financeira geral, aprofundamos a análise para identificar quais categorias possuem maior impacto nas despesas financeiras pessoais.
+Utilizando consultas SQL com agregações e relacionamentos entre tabela fato e dimensões, foi possível concluir que:
 <br>
-<a href="https://github.com/BruceFonseca/AdventureWorks2022/blob/main/SQL/AdventureWorks%20-%20Novos%20Clientes.sql" target="_blank">Clique aqui</a> e acesse o script SQL no Github.
+- Algumas categorias concentram grande parte das despesas totais<br>
+- Gastos essenciais representam a maior parcela das movimentações financeiras<br>
+- Os gastos apresentam padrões específicos ao longo dos meses<br>
+- A categorização financeira permite identificar oportunidades de controle financeiro pessoal
+<br>
+<a href="https://github.com/BrendonSantos7/Controle-Financeiro/blob/main/SQL/Controle_Financeiro%20-%20Categorias%20com%20maior%20gastos.sql" target="_blank">Clique aqui</a> e acesse o script SQL no Github.
 <br><br>
-Analisando a variação de novos clientes entre períodos, é possível identificar em 2013, um crescimento mensal muito acima da variação de 2012, sendo necessário aprofundar a análise e identificar de onde está vindo este grande crescimento de novos clientes.
+Essa análise proporciona uma visão estratégica sobre o comportamento financeiro e auxilia diretamente o acompanhamento e planejamento financeiro.
 
 <br><br>
-## Variação de novos clientes entre períodos
-<img align="right" width="500" height="320" src="https://github.com/BruceFonseca/AdventureWorks2022/blob/main/imagens/AdventureWorks%20-%20Novos%20Clientes%20Delta.png?raw=true">
-Analisando a variação de novos clientes, quando comparados com o mesmo período/mês do ano anterior, decidimos agrupar esta variação por região/país para identificar se houve crescimento. 
-Filtramos apenas o ano de 2013, pois foi o período com maiores taxas de crescimentos de novos clientes, o que nos permitiu concluir que: <br><br>
-- Canadá teve o maior crescimento percentual entre todos os países - aproximadamente 623% <br>
-- Estados Unidos teve o maior crescimento cumulativo de clientes - aproximadamente 5050 <br>
-- Apenas os Estados Unidos tiveram um crescimento maior que todos países da Europa juntos, sendo a América do Norte o principal mercado de atuação da empresa.
-- Todos países europeus dobraram ou superaram sua base de novos clientes. <br>
-- Austrália, apesar de não ter um crescimento comparável com Europa e América do Norte, aumentou sua base de novos clientes em quase 50%, sendo um ótimo resultado em 2013. <br>
+## Análise das formas de pagamento
+<img align="right" width="500" height="320" src="https://github.com/BrendonSantos7/Controle-Financeiro/blob/main/imagens/Controle%20Financeiro%20-%20Formas%20de%20Pagamentos.png?raw=true">
+Com os dados estruturados, também foi possível analisar o comportamento das movimentações financeiras através das formas de pagamento utilizadas nas transações.
+A análise permitiu identificar: <br><br>
+- Formas de pagamento mais utilizadas <br>
+- Volume financeiro movimentado por método de pagamento<br>
+- Quantidade de transações por forma de pagamento.<br>
+- Distribuição financeira entre bancos e contas. <br>
 
 <br>
-<a href="https://github.com/BruceFonseca/AdventureWorks2022/blob/main/SQL/AdventureWorks%20-%20Novos%20Clientes%20Delta%202013.sql" target="_blank">Clique aqui</a> e acesse o script SQL no Github.
+Utilizando SQL e funções de agregação, foi possível transformar os dados transacionais em informações estratégicas para acompanhamento financeiro.
+<a href="https://github.com/BrendonSantos7/Controle-Financeiro/blob/main/SQL/Controle_Financeiro%20-%20Formas%20de%20Pagamentos.sql" target="_blank">Clique aqui</a> e acesse o script SQL no Github.
 
 <br><br>
 
 ## Conclusão técnica SQL
-Com o SQL, podemos analisar, extrair, manipular e exibir os dados de uma base de dados de uma forma simples e rápida, apenas conectando direto na fonte dos dados. Porém, não é uma ferramenta dinâmica em com abordagem visual, pois cada vez que pricisa ver os dados de uma forma diferente, precisa reescrever o comando SQL para extrair os dados da forma que gostaria, porem os dados sempre serão exibidos em formato de tabela, deixando sua análise menos dinamica do que um dashboard, por exemplo.
+A utilização do SQL foi essencial para validação, exploração e análise dos dados financeiros, permitindo identificar padrões, tendências e indicadores relevantes diretamente na fonte de dados.
 
-A minha conclusão é que o SQL é sempre uma linguagem muito importante e deve ser utilizada para analisar um banco de dados antes de escolher outra ferramenta para análise dos dados, como o Power BI por exemplo. Ou seja, valide as informações no SQL e só depois considere outras ferramentas de acordo com a necessidade da empresa ou projeto que estiver atuando.
-Não existe uma ferramenta melhor que a outra, existe ferramentas adequadas as necessidades apresentadas em cada projeto de dados.
+Já o Power BI possibilitou transformar essas informações em análises dinâmicas e visuais, facilitando a interpretação dos dados e a geração de insights estratégicos.
 
 <br><br>
 

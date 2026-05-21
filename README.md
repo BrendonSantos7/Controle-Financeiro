@@ -12,7 +12,6 @@ Fazendo o download do arquivo Controle_financeiro.bak e anexando-o no SQL Server
 <img align="right" width="400"  src="https://github.com/BrendonSantos7/Controle-Financeiro/blob/main/imagens/Controle%20Financeiro%20-%20Receita%20e%20Despesas.png?raw=true">
 Iniciamos a análise exploratória entendendo o comportamento financeiro das transações ao longo dos 12 meses de 2025, utilizando SQL para extrair os principais indicadores financeiros da base de dados.<br>
 Entre as principais análises desenvolvidas:<br><br>
-
 - Receita total por período <br>
 - Despesas totais <br>
 - Evolução do saldo financeiro <br>

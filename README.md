@@ -9,9 +9,9 @@ Fazendo o download do arquivo Controle_financeiro.bak e anexando-o no SQL Server
 <br><br>
 
 ## Análise exploratória de dados
-<img align="right" width="500"  src="">
+<img align="right" width="400"  src="https://github.com/BrendonSantos7/Controle-Financeiro/blob/main/imagens/Controle%20Financeiro%20-%20Receita%20e%20Despesas.png?raw=true">
 Iniciamos a análise exploratória entendendo o comportamento financeiro das transações ao longo dos 12 meses de 2025, utilizando SQL para extrair os principais indicadores financeiros da base de dados.<br>
-Entre as principais análises desenvolvidas:<br>
+Entre as principais análises desenvolvidas:<br><br>
 
 - Receita total por período <br>
 - Despesas totais <br>
@@ -19,12 +19,12 @@ Entre as principais análises desenvolvidas:<br>
 - Quantidade de movimentações financeiras<br>
 - Comparativo entre receitas e despesas
 <br><br>
-<a href="https://github.com/BruceFonseca/AdventureWorks2022/blob/main/SQL/AdventureWorks%20-%20Clientes.sql" target="_blank">Clique aqui</a> e acesse o script SQL no Github.
+<a href="https://github.com/BrendonSantos7/Controle-Financeiro/blob/main/SQL/Controle_Financeiro%20-%20Receita%20vs%20Despesas%20Mensal.sql" target="_blank">Clique aqui</a> e acesse o script SQL no Github.
 
 
 <br><br>
 
-## Análise de Novos Clientes
+## Análise de categorias com maiores gastos
 <img align="left" width="500"  src="https://github.com/BruceFonseca/AdventureWorks2022/blob/main/imagens/AdventureWorks%20-%20Novos%20Clientes.png?raw=true">
 Para identificar os novos clientes, primeiro foi necessário agrupar os clientes por ano e mês em uma CTE - Common Table Expression, porém é possível o mesmo resultado utilizando outras técnicas. Na CTE criada com o nome ClientesPrimeiraDataCompra, identificamos qual foi a primeira compra de cada, agrupando novos clientes por ano e mês.
 Com os dados agrupados, utilizamos a função de janela LAG para encontrar novos clientes no mesmo mês do ano anterior, permitindo os seguintes cálculos: <br><br>

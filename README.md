@@ -43,40 +43,45 @@ Entre os principais insights encontrados:<br>
 <br><br>
 ## Análise das formas de pagamento
 <img align="right" width="500" height="320" src="https://github.com/BrendonSantos7/Controle-Financeiro/blob/main/imagens/Controle%20Financeiro%20-%20Formas%20de%20Pagamentos.png?raw=true">
-Com os dados estruturados, também foi possível analisar o comportamento das movimentações financeiras através das formas de pagamento utilizadas nas transações.
-A análise permitiu identificar: <br><br>
-- Formas de pagamento mais utilizadas <br>
-- Volume financeiro movimentado por método de pagamento<br>
-- Quantidade de transações por forma de pagamento.<br>
-- Distribuição financeira entre bancos e contas. <br>
-
+Com os dados estruturados, também foi possível analisar o comportamento das movimentações financeiras através das formas de pagamento utilizadas nas transações realizadas ao longo de 2025.<br>
+A análise permitiu identificar padrões relevantes de utilização dos métodos de pagamento e o impacto financeiro de cada modalidade nas movimentações financeiras pessoais.<br>
+Entre os principais insights encontrados: <br><br>
+- Transferências bancárias representaram a maior parte do volume financeiro movimentado durante o período analisado, totalizando aproximadamente R$ 91.700.<br>
+- Cartão de crédito foi responsável pela maior quantidade de transações realizadas ao longo de 2025, com 144 movimentações registradas.<br>
+- As movimentações via transferência bancária refletem principalmente operações realizadas por PIX, método amplamente utilizado em transações financeiras pessoais.<br>
+- O cartão de crédito apresentou maior frequência de utilização em despesas recorrentes e gastos do cotidiano.<br>
+- Enquanto transferências bancárias concentraram os maiores valores financeiros, o cartão de crédito apresentou maior recorrência de utilização nas transações do dia a dia.<br>
 <br>
-Utilizando SQL e funções de agregação, foi possível transformar os dados transacionais em informações estratégicas para acompanhamento financeiro.
+
 <a href="https://github.com/BrendonSantos7/Controle-Financeiro/blob/main/SQL/Controle_Financeiro%20-%20Formas%20de%20Pagamentos.sql" target="_blank">Clique aqui</a> e acesse o script SQL no Github.
 
 <br><br>
 
-## Conclusão técnica SQL
-A utilização do SQL foi essencial para validação, exploração e análise dos dados financeiros, permitindo identificar padrões, tendências e indicadores relevantes diretamente na fonte de dados.
+## 🧠 Conclusão Técnica
 
-Já o Power BI possibilitou transformar essas informações em análises dinâmicas e visuais, facilitando a interpretação dos dados e a geração de insights estratégicos.
+A utilização do SQL foi fundamental para exploração, validação e análise dos dados financeiros presentes na base de dados fictícia desenvolvida para simular o controle financeiro pessoal ao longo de 2025.
+
+Através das consultas SQL, foi possível analisar o comportamento das receitas, despesas, categorias financeiras e formas de pagamento, permitindo identificar padrões relevantes e gerar insights estratégicos sobre as movimentações financeiras do período analisado.
+
+Com a modelagem dimensional estruturada em tabela fato e dimensões, as análises puderam ser realizadas de forma mais organizada e escalável, simulando um cenário próximo de projetos reais de Business Intelligence e análise de dados.
 
 <br><br>
 
 ## Dashboard Power BI
 <img align="right" width="500"  src="https://raw.githubusercontent.com/BrendonSantos7/Controle-Financeiro/refs/heads/main/imagens/Dashboard.png">
-Após validar e explorar os dados utilizando SQL, desenvolvi um dashboard interativo no Power BI focado em indicadores financeiros, análise temporal e acompanhamento das movimentações financeiras pessoais.
-O dashboard permite análises dinâmicas e visuais através de filtros, segmentações e KPIs financeiros, proporcionando uma experiência analítica muito mais eficiente.<br>
+Após a validação e análise dos dados utilizando SQL, foi desenvolvido um dashboard interativo no Power BI com foco no acompanhamento financeiro pessoal durante os 12 meses de 2025.<br>
+O objetivo do dashboard foi transformar os dados financeiros em visualizações dinâmicas e intuitivas, permitindo análises temporais, categóricas e comportamentais das movimentações financeiras.<br>
 Entre os principais indicadores desenvolvidos: <br>
- - Receita Total e Despesa Total. <br>
- - Categorias com maiores gastos.<br>
- - Ticket Médio.<br>
- - Evolução Financeira Mensal.<br>
- - Formas de pagamento mais utilizadas.<br>
+- Evolução mensal de receitas, despesas e saldo financeiro. <br>
+- Categorias com maiores gastos. <br>
+- Distribuição das despesas financeiras. <br>
+- Formas de pagamento mais utilizadas. <br>
+- Comparativo entre receitas e despesas. <br>
+- Análise temporal das movimentações financeiras. <br>
 <br><br>
 <a href="https://app.powerbi.com/view?r=eyJrIjoiNjk3NWI0NTgtNDJkYy00ZTk4LWIwZWQtZDkxMWFjM2JiYjY2IiwidCI6ImFkOGRhY2IwLWU2OTgtNDJkZC04ODY2LWFkYWRkZTQ3MTEwZCJ9" target="_blank">Clique aqui</a> e acesse o projeto desenvolvido para análise financeira.
 <br>
-<a href="https://github.com/BrendonSantos7/Controle-Financeiro/blob/main/POWERBI/Controle%20Financeiro.pbix" target="_blank">Clique aqui</a> e acesse o arquivo .pbix no Github.
+<a href="https://github.com/BrendonSantos7/Controle-Financeiro/tree/main/POWERBI" target="_blank">Clique aqui</a> e acesse o arquivo .pbix no Github.
 <br><br>
 
 ## Ferramentas e linguagens utilizadas

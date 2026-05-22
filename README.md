@@ -66,10 +66,10 @@ Após validar e explorar os dados utilizando SQL, desenvolvi um dashboard intera
 O dashboard permite análises dinâmicas e visuais através de filtros, segmentações e KPIs financeiros, proporcionando uma experiência analítica muito mais eficiente.<br>
 Entre os principais indicadores desenvolvidos: <br>
  - Receita Total e Despesa Total. <br>
- - Categorias com maiores gastos.br>
- - Ticket Médio.
- - Evolução Financeira Mensal.
- - Formas de pagamento mais utilizadas.
+ - Categorias com maiores gastos.<br>
+ - Ticket Médio.<br>
+ - Evolução Financeira Mensal.<br>
+ - Formas de pagamento mais utilizadas.<br>
 <br><br>
 <a href="https://app.powerbi.com/view?r=eyJrIjoiNjk3NWI0NTgtNDJkYy00ZTk4LWIwZWQtZDkxMWFjM2JiYjY2IiwidCI6ImFkOGRhY2IwLWU2OTgtNDJkZC04ODY2LWFkYWRkZTQ3MTEwZCJ9" target="_blank">Clique aqui</a> e acesse o projeto desenvolvido para análise financeira.
 <br>

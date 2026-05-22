@@ -10,13 +10,15 @@ Fazendo o download do arquivo Controle_financeiro.bak e anexando-o no SQL Server
 
 ## Análise exploratória de dados
 <img align="right" width="400"  src="https://github.com/BrendonSantos7/Controle-Financeiro/blob/main/imagens/Controle%20Financeiro%20-%20Receita%20e%20Despesas.png?raw=true">
-Iniciamos a análise exploratória entendendo o comportamento financeiro das transações ao longo dos 12 meses de 2025, utilizando SQL para extrair os principais indicadores financeiros da base de dados.<br>
-Entre as principais análises desenvolvidas:<br><br>
-- Receita total por período <br>
-- Despesas totais <br>
-- Evolução do saldo financeiro <br>
-- Quantidade de movimentações financeiras<br>
-- Comparativo entre receitas e despesas
+Iniciamos a análise exploratória buscando compreender o comportamento financeiro ao longo dos 12 meses de 2025, identificando padrões de receitas, despesas e saldo financeiro da base de dados.<br>
+A análise demonstrou um cenário financeiro relativamente estável durante grande parte do ano, com receitas médias próximas de R$ 6.100 mensais e despesas variando entre R$ 2.700 e R$ 3.400.<br>
+Entre os principais insights encontrados:<br>
+<br>
+- Setembro apresentou o melhor saldo financeiro do ano, com aproximadamente R$ 3.430 de saldo positivo.<br>
+- Novembro registrou o menor saldo financeiro de 2025, impactado pelo aumento das despesas mensais.<br>
+- Dezembro apresentou a maior receita do período analisado, totalizando R$ 7.300.<br>
+- Agosto e Novembro foram os meses com maiores despesas financeiras do ano.<br>
+- O saldo financeiro permaneceu positivo durante todos os meses analisados, demonstrando estabilidade financeira ao longo de 2025.
 <br><br>
 <a href="https://github.com/BrendonSantos7/Controle-Financeiro/blob/main/SQL/Controle_Financeiro%20-%20Receita%20vs%20Despesas%20Mensal.sql" target="_blank">Clique aqui</a> e acesse o script SQL no Github.
 
@@ -25,17 +27,18 @@ Entre as principais análises desenvolvidas:<br><br>
 
 ## Análise de categorias com maiores gastos
 <img align="left" width="500"  src="https://github.com/BrendonSantos7/Controle-Financeiro/blob/main/imagens/Controle%20Financeiro%20-%20Categorias%20e%20Gastos.png?raw=true">
-Após entender a evolução financeira geral, aprofundamos a análise para identificar quais categorias possuem maior impacto nas despesas financeiras pessoais.
-Utilizando consultas SQL com agregações e relacionamentos entre tabela fato e dimensões, foi possível concluir que:
+Após entender a evolução financeira ao longo de 2025, aprofundamos a análise para identificar quais categorias tiveram maior impacto nas despesas financeiras pessoais.<br>
+Utilizando consultas SQL com agregações e relacionamentos entre tabela fato e dimensões, foi possível identificar padrões relevantes de consumo e comportamento financeiro durante o período analisado.<br>
+Entre os principais insights encontrados:<br>
 <br>
-- Algumas categorias concentram grande parte das despesas totais<br>
-- Gastos essenciais representam a maior parcela das movimentações financeiras<br>
-- Os gastos apresentam padrões específicos ao longo dos meses<br>
-- A categorização financeira permite identificar oportunidades de controle financeiro pessoal
+- Moradia foi a categoria com maior impacto financeiro, totalizando aproximadamente R$ 17.756 em despesas ao longo de 2025. <br>
+- Alimentação representou a segunda maior categoria de gastos, acumulando aproximadamente R$ 7.975 durante o período analisado. <br>
+- As categorias Moradia e Alimentação juntas concentraram mais de 70% das despesas totais do ano. <br>
+- Gastos relacionados a lazer e compras pessoais apresentaram participação relevante no orçamento financeiro.<br>
+- Categorias como saúde, educação e transporte apresentaram comportamento financeiro mais estável e menor impacto percentual nas despesas totais.<br>
 <br>
 <a href="https://github.com/BrendonSantos7/Controle-Financeiro/blob/main/SQL/Controle_Financeiro%20-%20Categorias%20com%20maior%20gastos.sql" target="_blank">Clique aqui</a> e acesse o script SQL no Github.
 <br><br>
-Essa análise proporciona uma visão estratégica sobre o comportamento financeiro e auxilia diretamente o acompanhamento e planejamento financeiro.
 
 <br><br>
 ## Análise das formas de pagamento

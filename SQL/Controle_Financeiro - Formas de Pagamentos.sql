@@ -1,14 +1,13 @@
 SELECT 
-    dcategoria.nome_categoria,
-    SUM(ft.valor) AS total_gasto
+    dfp.descricao AS forma_pagamento,
+    COUNT(ft.id_transacao) AS quantidade_transacoes,
+    SUM(ft.valor) AS valor_total
 
 FROM f_transacao ft
 
-INNER JOIN d_categoria dcategoria
-    ON ft.id_categoria = dcategoria.id_categoria
+INNER JOIN d_forma_pagamento dfp
+    ON ft.id_forma_pagamento = dfp.id_forma_pagamento
 
-WHERE ft.tipo = 'Despesa'
+GROUP BY dfp.descricao
 
-GROUP BY dcategoria.nome_categoria
-
-ORDER BY total_gasto DESC;
+ORDER BY valor_total DESC;
